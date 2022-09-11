@@ -11,7 +11,7 @@ html{
     -webkit-background-size: cover; 
      -moz-background-size: cover; 
     -o-background-size: cover;
-    background-size: cover;
+    background-size: 100vw;
     margin-right: 0%;
     -webkit-text-size-adjust: none;
 }
@@ -29,6 +29,8 @@ body{
      -moz-background-size: cover; 
     -o-background-size: cover;
     background-size: cover;
+    height:100vw;
+    width:100vw;
     margin-right: 0%;
     -webkit-text-size-adjust: none;
 
@@ -38,7 +40,7 @@ body{
     background-image: url(./flat-lay-2583213.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:100vw;
     padding: auto;
     margin: auto;
     background-attachment: fixed;
